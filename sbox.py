@@ -114,7 +114,7 @@ class SpiritBox:
             sd.stop()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Spirit Box Simulator")
+    parser = argparse.ArgumentParser(description="Spirit Box")
     parser.add_argument("directory", help="Directory containing audio clips")
     parser.add_argument("--speed", type=int, default=50, 
                       help="Scan speed in milliseconds (default: 50)")
